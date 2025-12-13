@@ -1,0 +1,67 @@
+import { useState } from "react";
+import generateReceipt from "../utils/generateReceipt";
+import "../styles/receipt.css";
+
+
+const Receipt = () => {
+  const [receipt, setReceipt] = useState(generateReceipt());
+
+  const handleGenerateNew = () => {
+    setReceipt(generateReceipt());
+  };
+
+return (
+  <div className="receipt">
+    <h1>{receipt.company}</h1>
+    <p className="slogan">{receipt.slogan}</p>
+
+    <p className="center">{receipt.address}</p>
+    <p className="center">{receipt.phone}</p>
+
+    <hr />
+
+    <div className="meta">
+      <p>Order: {receipt.orderNumber}</p>
+      <p>Date: {receipt.date}</p>
+    </div>
+
+    <hr />
+
+    <ul>
+      {receipt.items.map((item, index) => (
+        <li key={index}>
+          <span>
+            {item.quantity}x {item.name}
+          </span>
+          <span>${item.total.toFixed(2)}</span>
+        </li>
+      ))}
+    </ul>
+
+    <hr />
+
+    <div className="totals">
+      <p>Subtotal: ${receipt.subtotal}</p>
+      <p>
+        <strong>Total: ${receipt.total}</strong>
+      </p>
+    </div>
+
+    <hr />
+
+   <div className="barcode-container">
+      <div className="barcode"></div>
+      <div className="barcode-label">{receipt.orderNumber}</div>
+    </div>
+
+    <p className="thank-you">Thank you for your visit!</p>
+
+    <button onClick={handleGenerateNew}>
+      Generate New Receipt
+    </button>
+  </div>
+);
+
+};
+
+export default Receipt;

@@ -1,0 +1,117 @@
+body {
+  background: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.receipt {
+  width: 320px;
+  background: #fff;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
+.receipt h1 {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.receipt .slogan {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+.receipt .center {
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.receipt hr {
+  border: none;
+  border-top: 1px #000 solid;
+  margin: 12px 0;
+}
+
+.receipt .meta {
+  font-size: 0.85rem;
+}
+
+.receipt ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.receipt li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+}
+
+.receipt .totals {
+  font-size: 0.95rem;
+}
+
+.receipt .totals strong {
+  font-size: 1.05rem;
+}
+
+.receipt .thank-you {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 0.9rem;
+}
+
+.receipt button {
+  width: 100%;
+  margin-top: 16px;
+  padding: 8px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.receipt .barcode-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.receipt .barcode {
+  height: 50px;                    /* Slightly shorter (was 60px) */
+  width: 180px;                    /* About half the width → slimmer overall */
+  background: repeating-linear-gradient(
+    to right,
+    #000 0px,
+    #000 2px,     /* Slim black bars */
+    #fff 2px,
+    #fff 4px,     /* Wider white gaps for contrast */
+    #000 4px,
+    #000 6px,
+    #fff 6px,
+    #fff 9px,
+    #000 9px,
+    #000 11px,
+    #fff 11px,
+    #fff 13px,
+    #000 13px,
+    #000 15px,
+    #fff 15px,
+    #fff 17px
+  );
+  background-size: 180px 100%;
+  border: 1px solid #000;
+  image-rendering: pixelated; /* Keeps lines crisp */
+  display: inline-block;
+}
+
+.receipt .barcode-label {
+  margin-top: 8px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  letter-spacing: 5px;  /* Slightly more spacing for realism */
+}
