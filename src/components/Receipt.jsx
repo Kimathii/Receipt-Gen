@@ -23,6 +23,7 @@ const LOGO_MAP = {
   "Burger King": "/logos/burger.png",
   "Subway": "/logos/subway.png",
   "KFC": "/logos/kfc.png",
+  "McDonald's": "/logos/mcdonalds.png",
 };
 
   return (

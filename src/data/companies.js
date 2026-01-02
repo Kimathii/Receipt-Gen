@@ -142,34 +142,6 @@ const companies = [
       { name: "Greenies Original Dental Treats (36 oz)", price: 33.99 }
     ]
   },
-
-  {
-    store: "Alcohol & Spirits",
-    name: "Amazon",
-    slogan: "Work Hard. Have Fun. Make History.",
-    phone: "(305) 378-3000",
-    locations: [
-      { address: "Amazon Hub Locker, San Francisco, CA 94109", state: "CA" },
-      { address: "Amazon Hub Locker, Berkeley, CA 94720", state: "CA" },
-      { address: "Amazon Hub Locker, Sacramento, CA 95864", state: "CA" },
-      { address: "Amazon Hub Locker, Los Angeles, CA 90017", state: "CA" },
-      { address: "Amazon Hub Locker, San Diego, CA 92101", state: "CA" },
-      { address: "Amazon Hub Locker, Phoenix, AZ 85004", state: "AZ" },
-      { address: "Amazon Hub Locker, Dallas, TX 75201", state: "TX" },
-      { address: "Amazon Hub Locker, Austin, TX 78701", state: "TX" },
-      { address: "Amazon Hub Locker, Chicago, IL 60601", state: "IL" },
-      { address: "Amazon Hub Locker, New York, NY 10001", state: "NY" }
-    ],
-    products: [
-      { name: "Bacardí Carta Blanca White Rum (750ml)", price: 23.99 },
-      { name: "Bacardí Gold Añejo Rum (750ml)", price: 24.99 },
-      { name: "Bacardí Reserva Diez 10-Year Rum (750ml)", price: 44.99 },
-      { name: "Bacardí Mango Flavored Rum (750ml)", price: 22.99 },
-      { name: "Bacardí Raspberry Flavored Rum (750ml)", price: 22.99 },
-      { name: "Bacardí Lime Flavored Rum (750ml)", price: 22.99 },
-      { name: "Bacardí Spiced Rum (1.75L)", price: 39.99 }
-    ]
-  },
    {
     store: "Fast Food",
     name: "McDonald's",
