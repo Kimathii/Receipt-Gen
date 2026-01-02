@@ -18,7 +18,11 @@ const LOGO_MAP = {
   "Amazon": "/logos/amazon.png",
   "Sam's Club": "/logos/sams.png",
   "Petco": "/logos/petco.png",
-  "Target": "/logos/Target.jpg"
+  "Target": "/logos/Target.jpg",
+  "Chipotle Mexican Grill": "/logos/chipotle.png",
+  "Burger King": "/logos/burger.png",
+  "Subway": "/logos/subway.png",
+  "KFC": "/logos/kfc.png",
 };
 
   return (
