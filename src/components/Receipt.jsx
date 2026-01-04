@@ -67,13 +67,35 @@ const LOGO_MAP = {
       <hr />
 
       <div className="totals">
-        <p>Subtotal: ${receipt.subtotal}</p>
-        <p>
-          <strong>Total: ${receipt.total}</strong>
-        </p>
-      </div>
+  <p>Subtotal: ${Number(receipt.subtotal).toFixed(2)}</p>
+<p>Tax: ${Number(receipt.tax).toFixed(2)}</p>
+<p>
+  <strong>Total: ${Number(receipt.total).toFixed(2)}</strong>
+</p>
+
+</div>
+
 
       <hr />
+
+      <div className="payments">
+  <p className="section-title">Payment</p>
+
+  {receipt.payments.cash > 0 && (
+    <p>Cash: ${receipt.payments.cash.toFixed(2)}</p>
+  )}
+
+  {receipt.payments.card > 0 && (
+    <p>Card: ${receipt.payments.card.toFixed(2)}</p>
+  )}
+
+  {receipt.payments.other > 0 && (
+    <p>Other: ${receipt.payments.other.toFixed(2)}</p>
+  )}
+</div>
+
+<hr />
+
 
       <div className="barcode-container">
         <div className="barcode"></div>
