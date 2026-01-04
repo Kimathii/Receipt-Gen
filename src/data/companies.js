@@ -142,6 +142,42 @@ const companies = [
       { name: "Greenies Original Dental Treats (36 oz)", price: 33.99 }
     ]
   },
+
+    {
+    store: "Eukanuba Pet Food",
+    name: "Tractor Supply Co",
+    slogan: "For Life Out Here",
+    phone: "(502) 874-8000",
+    locations: [
+{ address: "4331 Bardstown Rd, Louisville, KY 40218", state: "KY" },
+{ address: "4000 Shelbyville Rd, Louisville, KY 40207", state: "KY" },
+{ address: "1025 Veterans Pkwy, Clarksville, IN 47129", state: "IN" },
+{ address: "757 E Lewis and Clark Pkwy, Clarksville, IN 47129", state: "IN" },
+{ address: "3500 Grant Line Rd, New Albany, IN 47150", state: "IN" },
+{ address: "4600 Shelbyville Rd, Louisville, KY 40207", state: "KY" },
+{ address: "201 S Hurstbourne Pkwy, Louisville, KY 40222", state: "KY" },
+{ address: "3891 Truxel Rd, Sacramento, CA 95834", state: "CA" },
+{ address: "1750 E Golf Rd, Schaumburg, IL 60173", state: "IL" },
+{ address: "2700 E Fowler Ave, Tampa, FL 33612", state: "FL" }
+
+    ],
+    products: [
+ { name: "Eukanuba Puppy Small Breed Fresh Chicken Dry Dog Food", price: 36.99 },
+  { name: "Eukanuba Puppy Small/Medium Breed Lamb & Rice Dry Dog Food", price: 38.99 },
+  { name: "Eukanuba Puppy Medium Breed Fresh Chicken Dry Dog Food", price: 39.99 },
+  { name: "Eukanuba Puppy Large Breed Fresh Chicken Dry Dog Food", price: 42.99 },
+  { name: "Eukanuba Adult Small Breed Fresh Chicken Dry Dog Food", price: 41.99 },
+  { name: "Eukanuba Adult Small/Medium Breed Lamb & Rice Dry Dog Food", price: 43.99 },
+  { name: "Eukanuba Adult Small/Medium Breed Salmon & Barley Dry Dog Food", price: 45.99 },
+  { name: "Eukanuba Adult Medium Breed Fresh Chicken Dry Dog Food", price: 44.99 },
+  { name: "Eukanuba Adult Large Breed Fresh Chicken Dry Dog Food", price: 47.99 },
+  { name: "Eukanuba Adult Large Breed Lamb & Rice Dry Dog Food", price: 46.99 },
+  { name: "Eukanuba Grain Free Adult Small/Medium Breed Chicken Dry Dog Food", price: 52.99 },
+  { name: "Eukanuba Adult Small Bites Dry Dog Food", price: 40.99 },
+  { name: "Eukanuba Adult Dry Dog Food for Medium Dogs", price: 42.99 }
+    ]
+  },
+  
    {
     store: "Fast Food",
     name: "McDonald's",
